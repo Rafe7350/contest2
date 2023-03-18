@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Fetching Data</title>
+</head>
+<body>
+    <div class="lead fs-5 text-center">Fetching Data From Api In Table</div>
+    
+
+    <div class="container mt-5">
+        <button type="button" class="btn btn-outline-primary MY-5" onclick="showData()">click</button>
+        
+        <div class="table-responsive">
+            <p id="t1"></p>
+            <table class="table table-striped">
+                <!-- first table -->
+                <thead id="hea1">
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">TITTLE</th>
+                        <th scope="col">BODY</th>
+                        <th scope="col">USER_ID</th>
+                        <th scope="col">REACTIOIN</th>
+                    </tr>
+                </thead>
+                <tbody id="body1">
+
+                </tbody>
+
+            </table>
+
+            <!-- second table -->
+            <p id="t2"></p>
+            <table class="table table-striped">
+
+                <thead id="hea2">
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">PRODUCT</th>
+                        <th scope="col">DESCRIPTION</th>
+                        <th scope="col">PRICE</th>
+                        <th scope="col">DECPERCT</th>
+                        <th scope="col">STOCK</th>
+                        <th scope="col">BRAND</th>
+                        <th scope="col">CATOGERY</th>
+                        <th scope="col">TUMBNAIL</th>
+                        <th scope="col">Galary</th>
+                    </tr>
+                </thead>
+                <tbody id="body2">
+
+                </tbody>
+
+            </table>
+
+            <!-- third table  -->
+            <p id="t3"></p>
+            <table class="table table-striped my-4">
+
+                <thead id="hea3">
+                    <tr>
+                        <th scope="col">Completed</th>
+                        <th scope="col">Completed</th>
+                        <th scope="col">Todo</th>
+                        <th scope="col">UserId</th>
+                        <!-- <th scope="col">REACTIOIN</th> -->
+                    </tr>
+                </thead>
+                <tbody id="body3">
+
+                </tbody>
+
+            </table>
+
+        </div>
+        <p id="pp"></p>
+        
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
